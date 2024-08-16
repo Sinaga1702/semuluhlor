@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 0; /* Ensure no padding */
+    margin: 0; /* Ensure no margin */
+    width: 100vw; /* Ensure full width */
+    box-sizing: border-box;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#beranda {
+    background-image: url('img/bgdepan.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw; /* Ensure full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0; /* Ensure no padding */
+    margin: 0; /* Ensure no margin */
+    position: relative;
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#beranda h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#beranda p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#beranda button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#beranda button:hover {
+    background-color: #0069d9;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+.footer-content a {
+    color: #f77737;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+    color: #2b24f0;
+}
+
+@media (min-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
+/* bagian akhir dari beranda */
+
+ section#tentang{
+    background-image: url(img/bg.jpg);
+    width: 100vw;
+    height: 100vh; /* Fullscreen */
+    background-size: cover; /* Gambar latar mencakup seluruh area */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Hilangkan margin */
+    padding: 0; /* Hilangkan padding */
+    color:black
+ }
+ .tentanglanjut{
+    color:#ffffff
+ }
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.map {
+    width: 100%;
+    height: 400px;
+}
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.map-container {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background: url('img/ef8b8259-aa59-4010-9f85-47fd6d48aa8f.jpg') no-repeat center ;
+    background-size: cover;
+}
+.house-icon {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.cakro-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.masjid-icon {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.balai-icon{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.embung-icon{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#details {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+#details img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
